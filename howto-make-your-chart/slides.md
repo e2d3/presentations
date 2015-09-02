@@ -4,23 +4,46 @@
 
 ### E2D3基盤制作部
 
+<div style='text-align: left'>
+  <img src="images/logo.png" width="20%" />
+</div>
+
 ---
 
-## E2D3 (Excel to D3.js) とは
+## OSSプロジェクト「E2D3」
+
+E2D3: Excel to D3.js
+
+- http://e2d3.org/
+- https://github.com/e2d3/
 
 データ可視化のテンプレートに<br>
 Excelからデータを流し込むことのできるソフトウェア
 
 1. エンジニアがデータ可視化テンプレートを<br>
    作って共有する
-2. エンドユーザがそれにデータを流し込みそれを<br>
+2. エンドユーザがそれにデータを流し込み<br>
    ブログやSNSで公開する
 
 ---
 
 ## デモ
 
-<image src="images/e2d3_demo.png" width="80%" />
+<img src="images/e2d3_demo.png" width="80%" />
+
+---
+
+## E2D3プロジェクトのやりたいこと
+
+データ可視化を作り上げるのはとっても大変
+
+見かけたものをちょっと使ってみたいなと思っても<br>
+特にノンプログラマには絶対無理
+
+<image src="images/down_arrow.svg" width="25%" class="noborder" />
+
+エンジニアが作ったデータ可視化のテンプレートに<br>
+Excelからデータを流し込めると良いのでは？
 
 ---
 
@@ -95,7 +118,7 @@ http://localhost:8000/ にアクセス。
 </dl>
 <dl>
   <dt>main.css</dt>
-  <dd>main.jsの実行前に読み出されるCSSファイル</dd>
+  <dd>main.jsの実行前に読み込まれるCSSファイル</dd>
 </dl>
 <dl>
   <dt>thumbnail.png</dt>
@@ -179,3 +202,12 @@ function update(data) {
   - `e2d3-contrib`のcloneを不要にする
   - (本当はこの説明会までに間に合わせたかった)
 - AMD形式でない外部JSの読み込み方法の強化
+
+---
+
+## 今後のエンドユーザ向け拡張予定
+
+- E2D3の状態のファイル保存機能
+- UI/UX全面改定
+- 簡易的なチャートのカスタマイズ
+- ブラウザ上での直接入力&公開
