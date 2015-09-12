@@ -35,6 +35,15 @@ Excelからデータを流し込むことのできるソフトウェア
 
 ---
 
+## E2D3の導入方法
+
+1. Excel2013 もしくは ExcelOnline (無料) を立ち上げる
+2. INSERTタブ -> Office Add-ins をクリック <!-- .element: class="fragment" -->
+3. STOREリンクをクリックした後、<br>検索ボックスで「E2D3」を検索 <!-- .element: class="fragment" -->
+4. E2D3を選択して、「Trust It」を押すと挿入される <!-- .element: class="fragment" -->
+
+---
+
 ## デモ
 
 <img src="images/e2d3_demo.png" width="80%" />
