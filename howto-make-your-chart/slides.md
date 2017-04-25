@@ -439,7 +439,6 @@ GitHub上でPullRequestを送っていただき、<br>
 - gist対応
   - `e2d3-contrib`のcloneを不要にする
   - (本当はこの説明会までに間に合わせたかった)
-- AMD形式でない外部JSの読み込み方法の強化
 
 ---
 
